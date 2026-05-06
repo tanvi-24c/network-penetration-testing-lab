@@ -88,7 +88,8 @@ exploit
 
 Performed scanning to identify open ports and services
 ![Nmap Scan](nmap.png)
-
+![Nmap Scan](nmap2.png)
+![Nmap Scan](nmap3.png)
 ### 🔹 Exploitation using Metasploit
 
 Successfully gained access to the target system
@@ -98,6 +99,8 @@ Successfully gained access to the target system
 
 Captured and analyzed network traffic
 ![Wireshark](wireshark.png)
+![Wireshark](wireshark2.png)
+![Wireshark](wireshark(1).pcapng)
 
 ---
 
