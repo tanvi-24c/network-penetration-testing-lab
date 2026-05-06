@@ -1,52 +1,129 @@
-# Network-Penetration-Testing-Exploitation-using-Kali-Linux
 # 🔐 Network Penetration Testing & Exploitation using Kali Linux
 
 ## 📌 Objective
-To perform network penetration testing in a controlled lab environment to identify, analyze, and exploit vulnerabilities.
+
+To perform network penetration testing in a controlled lab environment to identify, analyze, and exploit vulnerabilities in a target system.
+
+---
 
 ## 🛠️ Tools Used
-- Kali Linux
-- Nmap
-- Metasploit Framework
-- Wireshark
+
+* Kali Linux
+* Nmap
+* Metasploit Framework
+* Wireshark
+
+---
 
 ## 🧪 Lab Setup
-- Attacker Machine: Kali Linux
-- Target Machine: Vulnerable VM (Metasploitable / DVWA / etc.)
-- Network: Virtual environment
+
+| Component        | Details                         |
+| ---------------- | ------------------------------- |
+| Attacker Machine | Kali Linux                      |
+| Target Machine   | Metasploitable2 (Vulnerable VM) |
+| Network          | Virtual Lab Environment         |
+
+---
 
 ## 🔍 Methodology
 
 ### 1️⃣ Reconnaissance (Scanning)
-- Performed network scanning using Nmap
-- Identified open ports and running services
+
+Performed network scanning to identify live hosts, open ports, and running services.
 
 ### 2️⃣ Enumeration
-- Gathered detailed service information
-- Detected vulnerable services
+
+Gathered detailed information about services and identified potential vulnerabilities.
 
 ### 3️⃣ Exploitation
-- Used Metasploit to exploit vulnerabilities
-- Gained unauthorized access to target system
+
+Used Metasploit Framework to exploit identified vulnerabilities and gain access to the system.
 
 ### 4️⃣ Post Exploitation
-- Verified system access
-- Analyzed compromised environment
+
+Verified system access and analyzed compromised system behavior.
+
+---
+
+## 🔄 Attack Flow
+
+Kali Linux → Nmap Scan → Vulnerability Identification → Exploitation (Metasploit) → System Access
+
+---
+
+## ⚡ Commands Used
+
+```
+nmap -sV <target-ip>
+msfconsole
+search exploit
+use exploit/...
+set RHOST <target-ip>
+exploit
+```
+
+---
+
+## 🧨 Vulnerabilities Identified
+
+* vsftpd backdoor vulnerability
+* Open ports exposing critical services
+* Weak authentication mechanisms
+
+---
 
 ## 📊 Results
-- Discovered open ports (e.g., 21, 80, 443)
-- Identified vulnerable services
-- Successfully exploited system using Metasploit
-- Demonstrated real-world attack scenario
-  
+
+* Discovered open ports (21, 80, 443)
+* Identified vulnerable services
+* Successfully exploited target system
+* Gained unauthorized access using Metasploit
+* Demonstrated real-world attack scenario
+
+---
+
+## 📸 Screenshots
+
+### 🔹 Nmap Scan
+
+Performed scanning to identify open ports and services
+![Nmap Scan](nmap.png)
+
+### 🔹 Exploitation using Metasploit
+
+Successfully gained access to the target system
+![Metasploit](metasploit.png)
+
+### 🔹 Wireshark Analysis
+
+Captured and analyzed network traffic
+![Wireshark](wireshark.png)
+
+---
+
 ## 🔐 Security Recommendations
-- Close unused ports
-- Update vulnerable services
-- Implement firewall rules
-- Use intrusion detection systems (IDS)
+
+* Close unused ports
+* Update and patch vulnerable services
+* Implement firewall rules
+* Use Intrusion Detection Systems (IDS)
+* Enforce strong authentication mechanisms
+
+---
 
 ## 📌 Conclusion
-This project demonstrates practical implementation of penetration testing techniques including scanning, enumeration, and exploitation using Kali Linux.
+
+This project demonstrates practical implementation of penetration testing techniques including reconnaissance, enumeration, exploitation, and post-exploitation using Kali Linux tools. It highlights real-world vulnerabilities and emphasizes the importance of securing network systems.
+
+---
 
 ## ⚠️ Disclaimer
-This project was performed in a controlled lab environment for educational purposes only.
+
+This project was conducted in a controlled lab environment for educational purposes only. Unauthorized testing on real systems is illegal.
+
+---
+
+## 📄 Full Report
+
+[Click here to view detailed report](Report.md or https://docs.google.com/document/d/1ihAsTqPQAUYJOuwdr8tCRWkjxEnYX3mb9-o8Ip52oFA/edit?usp=sharing)
+
