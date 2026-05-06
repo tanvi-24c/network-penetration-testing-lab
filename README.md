@@ -1,4 +1,4 @@
-# 🔐 Network Penetration Testing & Exploitation using Kali Linux
+# 🔐 Network Penetration Testing & Exploitation Lab using Kali Linux
 
 ## 📌 Objective
 
@@ -54,7 +54,7 @@ Kali Linux → Nmap Scan → Vulnerability Identification → Exploitation (Meta
 ## ⚡ Commands Used
 
 ```
-nmap -sV <target-ip>
+nmap -sV 192.168.1.5
 msfconsole
 search exploit
 use exploit/...
@@ -66,10 +66,10 @@ exploit
 
 ## 🧨 Vulnerabilities Identified
 
-* vsftpd backdoor vulnerability
-* Open ports exposing critical services
-* Weak authentication mechanisms
 
+- vsftpd 2.3.4 backdoor vulnerability
+- Open ports exposing critical services
+- Weak authentication mechanisms
 ---
 
 ## 📊 Results
@@ -79,14 +79,14 @@ exploit
 * Successfully exploited target system
 * Gained unauthorized access using Metasploit
 * Demonstrated real-world attack scenario
-
+- Demonstrated how attackers can gain unauthorized system access
 ---
 
 ## 📸 Screenshots
 
 ### 🔹 Nmap Scan
 
-Performed scanning to identify open ports and services
+Performed service version detection to identify open ports and running services 
 ![Nmap Scan](nmap.png)
 ![Nmap Scan](nmap2.png)
 ![Nmap Scan](nmap3.png)
@@ -128,5 +128,5 @@ This project was conducted in a controlled lab environment for educational purpo
 
 ## 📄 Full Report
 
-[Click here to view detailed report](Report.md or https://docs.google.com/document/d/1ihAsTqPQAUYJOuwdr8tCRWkjxEnYX3mb9-o8Ip52oFA/edit?usp=sharing)
+[Click here to view detailed report](Report.md )
 
