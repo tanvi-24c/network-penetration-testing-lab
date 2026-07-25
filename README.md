@@ -87,7 +87,7 @@ Successfully gained access to the target system
 Captured and analyzed network traffic
 ![Wireshark](wireshark.png)
 ![Wireshark](wireshark2.png)
-![Wireshark](wireshark_capture.pcapng)
+[Wireshark packet capture](wireshark_capture.pcapng)
 
 ---
 
