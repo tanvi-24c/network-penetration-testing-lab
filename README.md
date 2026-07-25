@@ -58,12 +58,14 @@ vsftpd 2.3.4 backdoor vulnerability (CVE-2011-2523)
 Open ports exposing critical services (FTP, HTTP, HTTPS)
 Weak authentication mechanisms
 
-📊 Results
+📊 Results:-
+
 Discovered open ports (21, 80, 443)
 Identified vulnerable services
 Successfully exploited target system via the vsftpd backdoor
 Gained unauthorized access using Metasploit
 Demonstrated how attackers can gain unauthorized system access in a real-world attack scenario
+
 ---
 
 ## 📸 Screenshots
@@ -74,6 +76,7 @@ Performed service version detection to identify open ports and running services
 ![Nmap Scan](nmap.png)
 ![Nmap Scan](nmap2.png)
 ![Nmap Scan](nmap3.png)
+
 ### 🔹 Exploitation using Metasploit
 
 Successfully gained access to the target system
