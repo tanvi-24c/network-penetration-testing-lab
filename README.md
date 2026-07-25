@@ -116,5 +116,5 @@ This project was conducted in a controlled, isolated lab environment for educati
 
 ## 📄 Full Report
 
-[Click here to view detailed report](Report.md )
+[Click here to view detailed report](Network-Penetration-Testing-Report.pdf)
 
